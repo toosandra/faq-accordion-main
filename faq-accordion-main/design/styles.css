@@ -1,0 +1,51 @@
+body{
+    background-color:  hsl(275, 100%, 97%);
+    padding:0;
+    margin: auto;
+
+}
+.header{
+  width: 100%;
+}
+.header img{
+    width: 100%;
+
+}
+
+form{
+    position: relative;
+    width: 40%;
+    align-content: center;
+    margin:auto;
+    background-color:hsl(0, 0%, 100%);
+    padding: 30px;
+    bottom: 50px;
+    border-radius: 13px;
+    
+}
+.faq{
+    color: hsl(292, 42%, 14%);
+    display: flex;
+    gap: 10px;
+    
+    flex-direction: row;
+}
+p{
+    font-size: 16px;
+}
+
+
+.first{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.one h2{
+    font-size: 19px;
+}
